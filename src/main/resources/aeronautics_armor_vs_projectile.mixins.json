@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.N28N.aeronautics_armor_vs_projectile.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractCannonProjectileAccess",
+    "BalloonBuilderEnvelopeMixin",
+    "BalloonEnvelopeMixin",
+    "BalloonStateAccessor",
+    "ServerBalloonGasAccessor",
+    "BigCannonProjectileMixin",
+    "BigCannonProjectileDataMixin",
+    "AutocannonProjectileMixin",
+    "ExplosionMixin",
+    "ImpactExplosionMixin"
+  ],
+  "client": [
+    "BlockArmorInspectionMixin",
+    "BigCannonProjectileRendererMixin",
+    "HeatedCulledRenderRegionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

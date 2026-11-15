@@ -1,0 +1,1 @@
+com.N28N.aeronautics_armor_vs_projectile.integration.kubejs.KubeJSArmorPenetrationPlugin kubejs
